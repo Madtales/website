@@ -1,325 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Madtales AI</title>
-
-    <link rel="icon" type="image/x-icon" href="MADTALES LOGO.jpeg">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Productivity Tools | Madtales AI Audiobooks, Meetivo, Meeting Intelligence</title>
+  <meta name="description" content="Madtales AI builds AI productivity tools for modern teams and individuals, including Madtales AI Audiobooks with 37 languages and 58 voices, plus Meetivo for meeting notes, summaries, and team integration workflows.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://madtalesai.com/">
+  <meta property="og:title" content="Madtales AI | AI Productivity Ecosystem">
+  <meta property="og:description" content="AI-powered productivity tools for audio storytelling, meeting intelligence, and B2B workflow integration.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://madtalesai.com/">
+  <meta property="og:image" content="https://madtalesai.com/app_icon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Madtales AI | AI Productivity Ecosystem">
+  <meta name="twitter:description" content="AI productivity tools for audio storytelling, meeting intelligence, and B2B workflow integration.">
+  <meta name="twitter:image" content="https://madtalesai.com/app_icon.png">
+  <link rel="icon" type="image/x-icon" href="MADTALES LOGO.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Madtales AI",
+      "email": "contact@madtalesai.com",
+      "description": "Madtales AI builds AI productivity tools including Madtales AI Audiobooks and Meetivo for meeting intelligence.",
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "SoftwareApplication",
+            "name": "Madtales AI Audiobooks",
+            "applicationCategory": "ProductivityApplication"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "SoftwareApplication",
+            "name": "Meetivo",
+            "applicationCategory": "BusinessApplication"
+          }
+        }
+      ]
+    }
+  </script>
 </head>
-
 <body>
+  <div class="bg-decoration"></div>
+  <div class="particles">
+    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+    <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
+  </div>
+  <div class="glow-orb glow-orb-1"></div>
+  <div class="glow-orb glow-orb-2"></div>
+  <div class="glow-orb glow-orb-3"></div>
 
-    <!-- Background -->
-    <div class="bg-decoration"></div>
-
-    <div class="particles">
-        <div class="particle"></div><div class="particle"></div><div class="particle"></div>
-        <div class="particle"></div><div class="particle"></div><div class="particle"></div>
-        <div class="particle"></div><div class="particle"></div><div class="particle"></div>
-        <div class="particle"></div>
-    </div>
-
-    <div class="glow-orb glow-orb-1"></div>
-    <div class="glow-orb glow-orb-2"></div>
-    <div class="glow-orb glow-orb-3"></div>
-
-    <!-- NAVBAR -->
+  <div class="page-shell">
     <nav class="navbar">
-        <a href="index.html" class="nav-brand">
-            <img src="app_icon.png" alt="Madtales AI Logo" class="logo">
-        </a>
+      <a href="index.html" class="nav-brand">
+        <img src="app_icon.png" alt="Madtales AI logo" class="logo">
+        <span class="nav-brand-text">Madtales AI</span>
+      </a>
 
-        <button class="nav-toggle" id="navToggle">☰</button>
-
-        <div class="nav-right">
-            <div class="nav-links" id="navLinks">
-                <a href="about.html">About</a>
-      <a href="solutions.html">Industry Solutions</a>
-      <a href="services.html">Services</a>
-      <a href="products.html">Products</a>
-      <a href="privacy-policy.html">Privacy Policy</a>
-      <a href="terms.html">Terms</a>
-      <a href="shipping.html">Shipping</a>
-      <a href="index.html#contact">Contact Us</a>
-            </div>
+      <div class="nav-right">
+        <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+        <div class="nav-links" id="navLinks">
+          <a href="index.html" class="active">Home</a>
+          <a href="solutions.html">Industry Solutions</a>
+          <a href="services.html">Services</a>
+          <a href="products.html">Products</a>
+          <a href="shipping.html">Shipping</a>
+          <a href="index.html#contact">Contact Us</a>
         </div>
+        <div class="nav-actions">
+          <a href="products.html" class="button button-ghost">Explore Products</a>
+          <a href="meetivo.html" class="nav-cta">See Meetivo</a>
+        </div>
+      </div>
     </nav>
 
-    <!-- HERO -->
-    <!-- <section id="home" class="main">
-        <div class="main-content">
-            <h1 class="main-title">
-                AI, <span class="main-highlight">Reimagined</span>
-            </h1>
-            <p class="main-subtitle">
-                Minimal. Powerful. Human-centric.
-            </p>
-        </div>
-    </section> -->
-    <section id="home" class="hero-carousel">
-<div class="hero-header fade-in">
-  <h1 class="hero-title">
-    Three pillars. <span class="hero-highlight">Built to deliver.</span>
-  </h1>
-</div>
-
-
-<div class="hero-carousel-container">
-    <div class="hero-carousel-track">
-
-        <!-- SLIDE 1 -->
-        <div class="hero-carousel-slide active">
-            <div class="hero-slide-content">
-                <div class="hero-slide-text">
-                    <h1>Madtales Mobile App</h1>
-                    <p class="hero-slide-lead">
-                        Turn documents into immersive AI audio stories
-                    </p>
-                    <p>
-                        One of the most efficient and affordable ways to create immersive AI audiobooks — with a clean, intuitive interface designed for effortless listening.
-                    </p>
-                    <p>
-                        Designed for unlimited listening, transparent pricing, and real-world use — from books and study material to articles and everyday documents.
-                    </p>
-                </div>
-
-                <div class="hero-slide-visual">                   <img src="carousal1.png" alt="Madtales App Screenshot">
-                </div>
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-copy fade-in">
+          <span class="eyebrow">AI Productivity Ecosystem</span>
+          <h1 class="hero-title">AI-powered productivity tools for <span class="hero-highlight">modern minds</span></h1>
+          <p class="hero-subtitle">From AI audiobooks to intelligent meeting insights, Madtales AI builds focused software for people, teams, and businesses that want faster understanding and cleaner execution.</p>
+          <div class="hero-actions">
+            <a href="products.html" class="button button-primary">Explore Products</a>
+            <a href="index.html#contact" class="button button-secondary">Get Started</a>
+          </div>
+          <div class="hero-metrics">
+            <div class="metric">
+              <strong>2</strong>
+              <span>AI apps for knowledge flow and meeting intelligence</span>
             </div>
-        </div>
-
-        <!-- SLIDE 2 -->
-        <div class="hero-carousel-slide">
-            <div class="hero-slide-content">
-                <div class="hero-slide-text">
-                    <h1>AI, Edge & Embedded Engineering Services</h1>
-                    <p class="hero-slide-lead">
-                        MadTales AI delivers production-ready services across AI, edge, wireless, and embedded engineering.
-                    </p>
-                    <p>
-                        We build intelligent systems that perform where it matters most — on devices, at the edge, and across connected environments. From embedded AI for vision, audio, and sensor data to low-power, real-time deployments and wireless-aware system design, our work is built for reliability and scale. 
-                    </p>
-                    <p>
-                        Backed by strong engineering and clear execution, we help teams move from concept to production with AI solutions designed for real-world use.
-                    </p>
-                </div>
-
-                <div class="hero-slide-visual">
-                    <img src="carousal2.png" alt="AI & Embedded Engineering">
-                </div>
+            <div class="metric">
+              <strong>B2B</strong>
+              <span>Integration-ready positioning for teams and enterprise workflows</span>
             </div>
-        </div>
-
-        <!-- SLIDE 3 -->
-        <div class="hero-carousel-slide">
-            <div class="hero-slide-content">
-                <div class="hero-slide-text">
-                    <h1>Talent & <br>Hiring Services</h1>
-                    <p class="hero-slide-lead">
-                        MadTales helps companies hire top engineering talent through a flexible, end-to-end hiring model. 
-                    </p>
-                    <p>
-                        We support the entire recruitment lifecycle — from candidate sourcing and technical screening to interviews and onboarding support. Our staffing models adapt to your needs, whether permanent, contract, or project-based hiring. 
-                    </p>
-                    <p>
-                        With global and regional reach, we help organizations find the right local or remote talent for high-demand technology roles, including edge, wireless, embedded, AI, and core engineering functions.
-                    </p>
-                </div>
-
-                <div class="hero-slide-visual">
-                    <img src="carousal3.png" alt="Talent & Hiring">
-                </div>
+            <div class="metric">
+              <strong><span class="metric-highlight">37</span> + <span class="metric-highlight">58</span></strong>
+              <span>Madtales AI Audiobooks supports up to 37 languages and 58 voices</span>
             </div>
+          </div>
         </div>
 
-    </div>
-    </div>
-
-    <!-- Dots -->
-    <div class="hero-carousel-dots">
-        <span class="hero-dot active"></span>
-        <span class="hero-dot"></span>
-        <span class="hero-dot"></span>
-    </div>
-
-</section>
-
-
-    <!-- WHAT WE DO -->
-    <!-- <section class="section">
-        <div class="section-header fade-in">
-            <h2>What We Do</h2>
-            <p class="section-subtitle">Three pillars. One integrated AI stack.</p>
-        </div>
-
-        <div class="features-grid" >
-            <div class="feature-card fade-in" >
-               <a href="products.html">
-                <h3>AI Products</h3>
-                <p>Production-ready AI applications built for real-world usage, not demos.</p>
-               </a> 
+        <div class="hero-visual fade-in">
+          <div class="hero-visual-card ai-feel-panel">
+            <div class="visual-topbar">
+              <div class="visual-dots" aria-hidden="true">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <span class="visual-status">AI workspace active</span>
             </div>
-
-            <div class="feature-card fade-in" >
-                <a href="services.html"><h3>Embedded & Software Services</h3>
-                <p>Edge AI, embedded systems, and full-stack software engineered for deployment.</p>
+            <span class="visual-label">Ecosystem snapshot</span>
+            <h3>Explore each app directly from the product ecosystem.</h3>
+            <p>Madtales AI Audiobooks helps users consume ideas through audio in 37 languages with 58 voices. Meetivo helps teams capture decisions, summaries, and action items from meetings.</p>
+            <div class="visual-stack">
+              <div class="visual-meta-strip">
+                <div class="visual-meta-card">
+                  <strong>Listen layer</strong>
+                  <span>AI audiobooks with multilingual voice coverage</span>
+                </div>
+                <div class="visual-meta-card">
+                  <strong>Team layer</strong>
+                  <span>Meeting summaries, owners, and follow-through</span>
+                </div>
+                <div class="visual-meta-card">
+                  <strong>Business layer</strong>
+                  <span>B2B-ready workflows and integration conversations</span>
+                </div>
+              </div>
+              <div class="dashboard-grid">
+                <a href="madtales.html" class="app-link-card visual-less">
+                  <div class="app-card-body">
+                    <h4>Madtales AI Audiobooks</h4>
+                    <p class="app-card-description">AI audiobooks for reading, learning, and immersion with support for 37 languages and 58 voices.</p>
+                    <div class="app-card-badges">
+                      <span class="visual-chip emphasis">37 languages</span>
+                      <span class="visual-chip emphasis">58 voices</span>
+                    </div>
+                  </div>
                 </a>
-            </div>
-
-            <div class="feature-card fade-in" >
-                <a href="solutions.html"><h3>Talent & Consulting</h3>
-                <p>Specialized AI talent, advisory, and execution support across domains.</p>
+                <a href="meetivo.html" class="app-link-card visual-less">
+                  <div class="app-card-body">
+                    <h4>Meetivo</h4>
+                    <p class="app-card-description">AI meeting minutes, action extraction, and team productivity insights for modern teams.</p>
+                    <div class="app-card-badges">
+                      <span class="visual-chip">AI productivity tools</span>
+                      <span class="visual-chip">Meeting intelligence app</span>
+                    </div>
+                  </div>
                 </a>
+              </div>
             </div>
+          </div>
         </div>
-    </section> -->
+      </div>
+    </section>
 
-    <!-- FLAGSHIP PRODUCTS -->
-    <!-- <section class="section">
-        <div class="section-header fade-in">
-            <h2>Flagship Products</h2>
-            <p class="section-subtitle">Focused solutions with measurable impact.</p>
-        </div>
-
-        <div class="features-grid">
-            <div class="feature-card fade-in">
-                <a href="products.html">
-                <h3>MadTales</h3>
-                <p>Audio and text intelligence platform for summarization, listening, and content compression.</p>
-                </a>
-            </div>
-
-            <div class="feature-card fade-in">
-                <a href="products.html">
-                <h3>AI-Powered Fall Detection (MT100)</h3>
-                <p>Real-time edge AI system for detecting falls in healthcare and assisted environments.</p>
-                </a>
-            </div>
-        </div>
-    </section> -->
-
-    <!-- INDUSTRIES -->
     <section class="section">
+      <div class="container">
         <div class="section-header fade-in">
-            <h2>Industries Served</h2>
-            <p class="section-subtitle">Where our systems operate in the real world.</p>
+          <span class="eyebrow">Products</span>
+          <h2>Two AI products built for high-leverage daily workflows</h2>
+          <p class="section-subtitle">The ecosystem combines creative consumption with operational clarity so the company reads as a premium AI productivity brand with distinct software products.</p>
         </div>
-
-        <div class="features-grid">
-            <div class="feature-card fade-in"><h3>Automotive</h3></div>
-            <div class="feature-card fade-in"><h3>Healthcare</h3></div>
-            <div class="feature-card fade-in"><h3>Industrial</h3></div>
-            <div class="feature-card fade-in"><h3>IoT</h3></div>
-            <div class="feature-card fade-in"><h3>Enterprise AI</h3></div>
+        <div class="product-grid">
+          <article class="product-card fade-in">
+            <span class="product-kicker">Madtales AI Audiobooks</span>
+            <h3>AI audiobooks for reading, learning, and immersion</h3>
+            <p>Transform documents, articles, and stories into rich AI audiobook experiences with support for up to 37 languages and 58 voices.</p>
+            <div class="mini-stat-row">
+              <span class="mini-stat emphasis">37 languages</span>
+              <span class="mini-stat emphasis">58 voices</span>
+              <span class="mini-stat">Immersive listening</span>
+            </div>
+            <div class="hero-actions">
+              <a href="madtales.html" class="button button-primary">View Madtales AI Audiobooks</a>
+            </div>
+          </article>
+          <article class="product-card fade-in">
+            <span class="product-kicker">Meetivo</span>
+            <h3>Meeting intelligence that captures what matters automatically</h3>
+            <p>Convert discussions into concise summaries, extracted tasks, and operational follow-through so teams spend less time recapping and more time executing.</p>
+            <div class="mini-stat-row">
+              <span class="mini-stat">Auto summaries</span>
+              <span class="mini-stat">Action items</span>
+              <span class="mini-stat">Productivity insights</span>
+            </div>
+            <div class="hero-actions">
+              <a href="meetivo.html" class="button button-primary">View Meetivo</a>
+            </div>
+          </article>
+          <article class="product-card fade-in">
+            <span class="product-kicker">Platform view</span>
+            <h3>One ecosystem story for users, teams, and future launches</h3>
+            <p>The site now positions Madtales AI around productized AI workflows, which is stronger for brand clarity, partnerships, and search intent around AI productivity software.</p>
+            <div class="hero-actions">
+              <a href="products.html" class="button button-secondary">See Product Hub</a>
+            </div>
+          </article>
         </div>
+      </div>
     </section>
 
-    <!-- WHY MADTALES -->
     <section class="section">
+      <div class="container">
         <div class="section-header fade-in">
-            <h2>Why Madtales</h2>
-            <p class="section-subtitle">Built for deployment, not experimentation.</p>
+          <span class="eyebrow">B2B Integration</span>
+          <h2>Built to integrate into business workflows, not just individual usage</h2>
+          <p class="section-subtitle">Beyond standalone apps, the platform can fit into team processes and internal productivity systems. Meetivo is the clearest example, where AI summaries and action items can support broader collaboration workflows.</p>
         </div>
+        <div class="compare-grid">
+          <div class="compare-card fade-in">
+            <span class="product-kicker">Meetivo in workflows</span>
+            <h2>Integration-ready meeting intelligence</h2>
+            <ul>
+              <li>Position Meetivo as an AI layer that strengthens meeting clarity, documentation quality, and execution follow-through.</li>
+              <li>Use it alongside existing collaboration tools, internal knowledge systems, and recurring operating rhythms without forcing a new workflow.</li>
+              <li>Capture summaries, decisions, owners, and action items that can flow into downstream planning, reporting, and accountability processes.</li>
+              <li>Support B2B deployments where productivity software needs to fit naturally into established communication habits across functions and teams.</li>
+            </ul>
+          </div>
+          <div class="visual-card fade-in">
+            <img src="Meetivo_Login.jpeg" alt="Meetivo login and app screenshot">
+            <p class="visual-note">Meetivo is positioned as both a product and an integration-friendly workflow layer for business teams.</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <section class="section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="eyebrow">Value Proposition</span>
+          <h2>Designed to help people save time, think better, and create more</h2>
+        </div>
         <div class="features-grid">
-            <div class="feature-card fade-in">
-                <h3>Privacy-first AI</h3>
-                <p>Systems designed with data minimization and user control at the core.</p>
-            </div>
-
-            <div class="feature-card fade-in">
-                <h3>Edge & Real-World Expertise</h3>
-                <p>Experience deploying AI beyond the cloud, into devices and environments.</p>
-            </div>
-
-            <div class="feature-card fade-in">
-                <h3>End-to-End Ownership</h3>
-                <p>From idea to deployment — no handoffs, no fragmentation.</p>
-            </div>
+          <div class="feature-card fade-in">
+            <div class="icon-pill">01</div>
+            <h3>Save time</h3>
+            <p>Turn reading into listening and meetings into structured output, reducing the overhead around consumption and coordination.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="icon-pill">02</div>
+            <h3>Think better</h3>
+            <p>Clear summaries, better recall, and calmer interfaces help users and teams focus on signals instead of sifting through noise.</p>
+          </div>
+          <div class="feature-card fade-in">
+            <div class="icon-pill">03</div>
+            <h3>Create more</h3>
+            <p>Free up cognitive bandwidth for writing, planning, and building by automating repetitive information work.</p>
+          </div>
         </div>
+      </div>
     </section>
 
-
-
-    <!-- CONTACT -->
-    <section id="contact" class="section contact">
-        <div class="contact-card fade-in">
-            <h2>Contact</h2>
-
-            <a href="mailto:contact@madtalesai.com" class="contact-email">Mail Us</a>
-<a href="https://www.linkedin.com/company/madtalesai/" class="contact-email">LinkedIn</a>
-<a href="https://www.instagram.com/madtales.ai/" class="contact-email">Instagram</a>
-<a href="https://www.facebook.com/madtalesai" class="contact-email">Facebook</a>
-
+    <section class="section">
+      <div class="container">
+        <div class="split-grid">
+          <div class="visual-card fade-in">
+            <img src="carousal1.png" alt="Madtales AI Audiobooks screenshot">
+            <p class="visual-note">Madtales AI Audiobooks turns text into premium listening with broad language and voice coverage.</p>
+          </div>
+          <div class="visual-card fade-in">
+            <img src="Meetivo.jpeg" alt="Meetivo AI meeting notes screenshot">
+            <p class="visual-note">Meetivo expands the ecosystem into AI meeting notes, summaries, and team productivity software.</p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <!-- FOOTER -->
-<footer class="footer">
-  <p>&copy; 2025 Madtales AI Pvt Ltd</p>
-</footer>
+    <section class="section">
+      <div class="container">
+        <div class="cta-panel fade-in">
+          <span class="eyebrow">Get Started</span>
+          <h2>Choose the workflow you want to accelerate next</h2>
+          <p>Start with Madtales AI Audiobooks for immersive listening, or give your team cleaner meeting outcomes and B2B-ready workflow support with Meetivo.</p>
+          <div class="contact-buttons">
+            <a href="madtales.html" class="button button-primary">Start with Madtales AI Audiobooks</a>
+            <a href="meetivo.html" class="button button-secondary">Explore Meetivo</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <!-- JS (UNCHANGED) -->
-    <script>
-        const navToggle = document.getElementById('navToggle');
-        const navLinks = document.getElementById('navLinks');
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-card contact-panel fade-in">
+            <span class="eyebrow">Contact</span>
+            <h2>Send us your query</h2>
+            <p>Use the form to draft an enquiry to our team. It is set up for product access, B2B integration discussions, partnerships, consulting, and general support.</p>
+            <div class="contact-points">
+              <div class="contact-point">
+                <strong>Email route</strong>
+                <span>The form opens a prefilled draft to contact@madtalesai.com.</span>
+              </div>
+              <div class="contact-point">
+                <strong>Best for</strong>
+                <span>Meetivo integrations, Madtales partnerships, demos, and business enquiries.</span>
+              </div>
+              <div class="contact-point">
+                <strong>Direct contact</strong>
+                <span><a href="mailto:contact@madtalesai.com">contact@madtalesai.com</a></span>
+              </div>
+            </div>
+          </div>
 
-        navToggle.addEventListener('click', () => {
-            navLinks.classList.toggle('open');
-        });
+          <div class="contact-card fade-in">
+            <form id="contactForm" class="contact-form">
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input id="name" name="name" type="text" placeholder="Your name" required>
+                </div>
+                <div class="form-field">
+                  <label for="email">Work email</label>
+                  <input id="email" name="email" type="email" placeholder="you@company.com" required>
+                </div>
+              </div>
+              <div class="form-grid">
+                <div class="form-field">
+                  <label for="company">Company</label>
+                  <input id="company" name="company" type="text" placeholder="Company or team name">
+                </div>
+                <div class="form-field">
+                  <label for="interest">What is this about?</label>
+                  <select id="interest" name="interest" required>
+                    <option value="">Select a topic</option>
+                    <option value="Meetivo integration">Meetivo integration</option>
+                    <option value="Madtales partnership">Madtales partnership</option>
+                    <option value="Demo request">Demo request</option>
+                    <option value="Support query">Support query</option>
+                    <option value="General enquiry">General enquiry</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="message">Query</label>
+                <textarea id="message" name="message" rows="7" placeholder="Tell us what you need, what workflow you want to improve, or what you want to integrate." required></textarea>
+              </div>
+              <button type="submit" class="button button-primary">Send Query</button>
+              <p class="form-note">This website is static, so submitting opens your default mail client with a ready-to-send draft addressed to contact@madtalesai.com.</p>
+            </form>
+            <div class="contact-buttons">
+              <a href="https://www.linkedin.com/company/madtalesai/" class="contact-email">LinkedIn</a>
+              <a href="https://www.instagram.com/madtales.ai/" class="contact-email">Instagram</a>
+              <a href="https://www.facebook.com/madtalesai" class="contact-email">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        navLinks.querySelectorAll('a').forEach(link => {
-            link.addEventListener('click', () => {
-                navLinks.classList.remove('open');
-            });
-        });
+    <footer class="footer">
+      <p>&copy; 2025 Madtales AI Pvt Ltd</p>
+    </footer>
+  </div>
 
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                }
-            });
-        });
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) entry.target.classList.add('visible');
-            });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
-
-    const slides = document.querySelectorAll('.hero-carousel-slide');
-    const dots = document.querySelectorAll('.hero-dot');
-    const track = document.querySelector('.hero-carousel-track');
-    let index = 0;
-
-    function showSlide(i) {
-        slides.forEach((slide, idx) => {
-            slide.classList.toggle('active', idx === i);
-            dots[idx].classList.toggle('active', idx === i);
-        });
-        track.style.transform = `translateX(-${i * 100}%)`;
-        index = i;
-    }
-
-    dots.forEach((dot, i) => {
-        dot.addEventListener('click', () => showSlide(i));
-    });
-
-    // Auto slide (optional)
-    setInterval(() => {
-        showSlide((index + 1) % slides.length);
-    }, 7000);
-
-
-    </script>
-
+  <script src="script.js"></script>
 </body>
 </html>

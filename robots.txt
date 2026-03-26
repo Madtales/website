@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://madtalesai.com/sitemap.xml
