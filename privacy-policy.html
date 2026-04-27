@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy | Madtales AI Audiobooks and Meetivo</title>
-  <meta name="description" content="Read the privacy policy for Madtales AI Audiobooks and Meetivo, including data handling, cloud sync, third-party processing, and user rights.">
+  <meta name="description" content="How Madtales AI Audiobooks and Meetivo handle your information—explained in one place.">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://madtalesai.com/privacy-policy.html">
   <meta property="og:title" content="Privacy Policy | Madtales AI Audiobooks and Meetivo">
@@ -17,13 +17,11 @@
   <meta name="twitter:description" content="Privacy details for Madtales AI Audiobooks and Meetivo from Madtales AI.">
   <meta name="twitter:image" content="https://madtalesai.com/app_icon.png">
   <link rel="icon" type="image/x-icon" href="MADTALES LOGO.jpeg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="privacy-policy.css">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
   <div class="bg-decoration"></div>
   <div class="particles">
     <div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div><div class="particle"></div>
@@ -32,32 +30,39 @@
   <div class="glow-orb glow-orb-2"></div>
 
   <div class="page-shell">
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main">
       <a href="index.html" class="nav-brand">
-        <img src="app_icon.png" alt="Madtales AI logo" class="logo">
+        <img src="app_icon.png" alt="" class="logo" width="42" height="42">
         <span class="nav-brand-text">Madtales AI</span>
       </a>
       <div class="nav-right">
-        <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
         <div class="nav-links" id="navLinks">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
-          <a href="solutions.html">Industry Solutions</a>
+          <a href="solutions.html">Solutions</a>
           <a href="services.html">Services</a>
           <a href="products.html">Products</a>
-          <a href="privacy-policy.html" class="active">Privacy Policy</a>
-          <a href="terms.html">Terms</a>
           <a href="shipping.html">Shipping</a>
-          <a href="index.html#contact">Contact Us</a>
+          <a href="index.html#contact">Contact</a>
+          <div class="nav-drawer-cta">
+            <a href="products.html" class="button button-ghost nav-drawer-btn">Our apps</a>
+            <a href="index.html#contact" class="button button-primary nav-drawer-btn">Contact us</a>
+          </div>
+        </div>
+        <div class="nav-actions">
+          <a href="products.html" class="button button-ghost">Our apps</a>
+          <a href="index.html#contact" class="nav-cta">Contact</a>
         </div>
       </div>
     </nav>
 
+    <main id="main">
     <section class="main legal-hero">
       <div class="main-content fade-in">
         <span class="main-badge">Privacy</span>
-        <h1 class="main-title">Privacy policies for <span class="main-highlight">both products</span></h1>
-        <p class="main-subtitle">Madtales AI Audiobooks and Meetivo have different data flows, so each policy appears below as its own clearly separated section.</p>
+        <h1 class="main-title">Privacy for <span class="main-highlight">our apps</span></h1>
+        <p class="main-subtitle">Audiobooks and Meetivo work differently, so we explain each app in its own section below.</p>
       </div>
     </section>
 
@@ -65,8 +70,8 @@
       <div class="legal-intro-card fade-in">
         <div>
           <span class="product-kicker">Overview</span>
-          <h2 class="showcase-title">Two products, two privacy postures</h2>
-          <p class="showcase-text">Madtales AI Audiobooks focuses on uploaded reading material and generated audio experiences. Meetivo focuses on meeting capture, local storage, and AI-generated summaries for teams.</p>
+          <h2 class="showcase-title">Separate sections per product</h2>
+          <p class="showcase-text">The audiobook app deals with text and audio you bring in. Meetivo deals with meetings, notes on your device, and summaries for teams. The details matter, so each product has its own section here—and we’ll add sections as we ship new apps.</p>
         </div>
         <div class="legal-jump-links" aria-label="Privacy sections">
           <a href="#madtales-privacy" class="legal-jump-link">Madtales AI Audiobooks</a>
@@ -218,9 +223,11 @@
         </div>
       </article>
     </section>
+    </main>
 
-    <footer class="footer">
-      <p>&copy; 2025 Madtales AI Pvt Ltd</p>
+    <footer class="footer footer--compact">
+      <p><a href="terms.html">Terms</a> · <a href="privacy-policy.html">Privacy</a> · <a href="index.html">Home</a></p>
+      <p class="footer-copy">&copy; 2026 Madtales AI Pvt Ltd</p>
     </footer>
   </div>
 
