@@ -17,9 +17,6 @@
   <meta name="twitter:description" content="Delivery information for Madtales AI digital products and services.">
   <meta name="twitter:image" content="https://madtalesai.com/app_icon.png">
   <link rel="icon" href="MADTALES LOGO.jpeg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="shipping.css">
 </head>
@@ -32,66 +29,92 @@
   <div class="glow-orb glow-orb-2"></div>
 
   <div class="page-shell">
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main">
       <a href="index.html" class="nav-brand">
-        <img src="app_icon.png" alt="Madtales AI logo" class="logo">
+        <img src="app_icon.png" alt="" class="logo" width="42" height="42">
         <span class="nav-brand-text">Madtales AI</span>
       </a>
       <div class="nav-right">
-        <button class="nav-toggle" id="navToggle" aria-label="Open menu">&#9776;</button>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">&#9776;</button>
         <div class="nav-links" id="navLinks">
           <a href="index.html">Home</a>
           <a href="about.html">About</a>
-          <a href="solutions.html">Industry Solutions</a>
+          <a href="solutions.html">Solutions</a>
           <a href="services.html">Services</a>
           <a href="products.html">Products</a>
-          <a href="privacy-policy.html">Privacy Policy</a>
-          <a href="terms.html">Terms</a>
           <a href="shipping.html" class="active">Shipping</a>
-          <a href="index.html#contact">Contact Us</a>
+          <a href="contact.html">Contact</a>
         </div>
       </div>
     </nav>
 
+    <main id="main">
     <section class="main">
       <div class="main-content fade-in">
         <span class="main-badge">Delivery</span>
         <h1 class="main-title">Shipping & <span class="main-highlight">Delivery</span></h1>
-        <p class="main-subtitle">How Madtales AI delivers digital products and services.</p>
+        <p class="main-subtitle">Everything here is digital—here’s what that means for you.</p>
       </div>
     </section>
 
-    <section class="shipping">
+    <section class="shipping section--band">
       <div class="shipping-grid">
         <div class="shipping-card fade-in">
           <h3>What We Deliver</h3>
           <ul>
-            <li>Madtales subscriptions and app access.</li>
-            <li>Meetivo access and related digital product workflows.</li>
-            <li>AI product development, consulting, and automation services.</li>
+            <li>Madtales AI Audiobooks subscriptions and app access.</li>
+            <li>Meetivo access and online onboarding.</li>
+            <li>Project-based help (consulting or build work) agreed in writing.</li>
           </ul>
         </div>
         <div class="shipping-card fade-in">
           <h3>Physical Shipping</h3>
-          <p>Madtales AI does not currently ship physical goods. Offerings are digital and delivered electronically.</p>
+          <p>We don’t mail boxes or gadgets. You get apps, logins, or files online.</p>
         </div>
         <div class="shipping-card fade-in">
           <h3>Delivery Method</h3>
           <ul>
-            <li>Mobile app stores or web-based access.</li>
-            <li>Email communication and onboarding details.</li>
-            <li>Project delivery through agreed digital channels.</li>
+            <li>Download from app stores or sign in on the web.</li>
+            <li>Email with next steps when you start a service.</li>
+            <li>Files and updates shared over email or cloud tools you approve.</li>
           </ul>
         </div>
         <div class="shipping-card fade-in">
           <h3>Timeline</h3>
-          <p>Delivery timing depends on the relevant subscription, service scope, or written agreement in place.</p>
+          <p>Timing depends on what you bought or what we agreed in writing—usually quick for apps, longer for custom projects.</p>
         </div>
       </div>
     </section>
+    </main>
 
     <footer class="footer">
-      <p>&copy; 2025 Madtales AI Pvt Ltd</p>
+      <div class="footer-brand">
+        <span class="footer-logo">Madtales AI</span>
+        <p class="footer-tagline">Focused productivity tools from <strong>Madtales AI</strong>: <strong>Madtales AI Audiobooks</strong> for listening, <strong>Meetivo</strong> for meetings—and more to come.</p>
+      </div>
+      <div class="footer-grid">
+        <div class="footer-col">
+          <span class="footer-heading">Apps</span>
+          <a href="products.html">All apps</a>
+          <a href="madtales.html">Audiobooks</a>
+          <a href="meetivo.html">Meetivo</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-heading">Company</span>
+          <a href="about.html">About</a>
+          <a href="solutions.html">Solutions</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <div class="footer-col">
+          <span class="footer-heading">Legal</span>
+          <a href="privacy-policy.html">Privacy</a>
+          <a href="terms.html">Terms</a>
+          <a href="shipping.html">Shipping</a>
+          <a href="delete-account-info.html">Delete account</a>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 Madtales AI Pvt Ltd</p>
     </footer>
   </div>
 

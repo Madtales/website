@@ -6,9 +6,9 @@
     <title>Delete Account Guide - Madtales AI</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="delete-account-page">
+    <a class="skip-link" href="#main">Skip to content</a>
     <!-- SVG Decorative Background -->
     <svg class="bg-svg" width="100%" height="100%" viewBox="0 0 1440 320" fill="none" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -20,27 +20,32 @@
         <ellipse cx="720" cy="160" rx="900" ry="180" fill="url(#aiGradient)"/>
     </svg>
 
-    <!-- Minimal Navbar -->
-    <nav class="navbar minimal-navbar">
+    <nav class="navbar minimal-navbar" aria-label="Main">
         <a href="index.html" class="nav-brand">
+            <img src="app_icon.png" alt="" class="logo" width="42" height="42">
             <span class="nav-brand-text">Madtales AI</span>
         </a>
-        <button class="nav-toggle" id="navToggle" aria-label="Open menu"><i class="fas fa-bars"></i></button>
-        <div class="nav-links" id="navLinks">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="products.html">Products</a>
-            <a href="index.html#contact">Contact</a>
+        <div class="nav-right">
+            <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-bars"></i></button>
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="shipping.html">Shipping</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
+    <main id="main">
     <section class="hero minimal-hero hero-bg-image">
         <div class="hero-bg-gradient"></div>
         <div class="hero-main minimal-hero-main">
             <div class="hero-content minimal-hero-content">
                 <h1>How to Delete Your Account</h1>
-                <p class="subtitle">Step-by-step guide to permanently remove your Madtales AI account</p>
+                <p class="subtitle">Simple steps to close your account and delete your data, in everyday language</p>
             </div>
             <svg class="hero-accent-svg" width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="40" cy="40" r="36" stroke="#E2DFD0" stroke-width="2" fill="none" opacity="0.18"/>
@@ -90,10 +95,11 @@
             <path d="M0,0 Q720,80 1440,0 L1440,80 L0,80 Z" fill="#152642"/>
         </svg>
     </section>
+    </main>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 Madtales AI. All rights reserved.</p>
+    <footer class="footer footer--compact">
+        <p><a href="privacy-policy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="index.html">Home</a></p>
+        <p class="footer-copy">&copy; 2026 Madtales AI Pvt Ltd</p>
     </footer>
 
     <script src="script.js"></script>
